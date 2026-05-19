@@ -13,6 +13,7 @@ OpenClaw LLM Games 是一个开源整理项目，用来收集、整理和展示�
 - `data/games.json`：游戏目录的唯一数据源。
 - `index.html`：可直接发布到 GitHub Pages 的双语目录页。
 - `src/app.js`：搜索、分类筛选和中英文切换逻辑。
+- `prompts/<game-id>/`：每个游戏的 prompt 模板（system/user，按语言拆分）。
 - `CONTRIBUTING.md`：新增游戏和维护条目的贡献指南。
 - `scripts/validate-data.mjs`：数据结构校验脚本。
 
@@ -60,6 +61,7 @@ The current seed catalog was transcribed from an OpenClaw game-list screenshot p
 - `data/games.json`: the single source of truth for the catalog.
 - `index.html`: a bilingual static catalog page ready for GitHub Pages.
 - `src/app.js`: search, category filtering, and language switching.
+- `prompts/<game-id>/`: system/user prompt sets for each game, split by language.
 - `CONTRIBUTING.md`: contribution guide for new games and updates.
 - `scripts/validate-data.mjs`: data validation script.
 
