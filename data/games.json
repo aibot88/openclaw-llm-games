@@ -1,0 +1,249 @@
+[
+  {
+    "id": "surrounded-by-sisters",
+    "title": {
+      "zh": "我被姐姐包围啦～",
+      "en": "Surrounded by Sisters"
+    },
+    "description": {
+      "zh": "一个剧情驱动的模拟社交选择型游戏。",
+      "en": "A story-driven simulated social choice game."
+    },
+    "author": "robertmao.com",
+    "categories": ["social-simulation", "choice-driven", "romance"],
+    "languages": ["zh"],
+    "openclawUrl": "",
+    "source": {
+      "zh": "来自用户提供的 OpenClaw 游戏列表截图。",
+      "en": "From the OpenClaw game list screenshot provided by the user."
+    }
+  },
+  {
+    "id": "three-body-rpg",
+    "title": {
+      "zh": "三体 RPG",
+      "en": "Three-Body RPG"
+    },
+    "description": {
+      "zh": "点击按钮开始游戏。",
+      "en": "Click the button to start the game."
+    },
+    "author": "YB LEEIGHT",
+    "categories": ["rpg", "sci-fi"],
+    "languages": ["zh"],
+    "openclawUrl": "",
+    "source": {
+      "zh": "来自用户提供的 OpenClaw 游戏列表截图。",
+      "en": "From the OpenClaw game list screenshot provided by the user."
+    }
+  },
+  {
+    "id": "archer-hero-adventure",
+    "title": {
+      "zh": "射雕英雄探险",
+      "en": "Legend of the Condor Heroes Adventure"
+    },
+    "description": {
+      "zh": "点击下方按钮开始游戏。",
+      "en": "Click the button below to start the game."
+    },
+    "author": "",
+    "categories": ["adventure", "wuxia"],
+    "languages": ["zh"],
+    "openclawUrl": "",
+    "source": {
+      "zh": "来自用户提供的 OpenClaw 游戏列表截图。",
+      "en": "From the OpenClaw game list screenshot provided by the user."
+    }
+  },
+  {
+    "id": "tragic-world-rpg",
+    "title": {
+      "zh": "悲惨世界 RPG",
+      "en": "Les Miserables RPG"
+    },
+    "description": {
+      "zh": "点击下方按钮开始游戏。",
+      "en": "Click the button below to start the game."
+    },
+    "author": "LU CHE YU",
+    "categories": ["rpg", "literary-adaptation"],
+    "languages": ["zh"],
+    "openclawUrl": "",
+    "source": {
+      "zh": "来自用户提供的 OpenClaw 游戏列表截图。",
+      "en": "From the OpenClaw game list screenshot provided by the user."
+    }
+  },
+  {
+    "id": "ai-girlfriends",
+    "title": {
+      "zh": "AI女友 My Girlfriends",
+      "en": "AI Girlfriends"
+    },
+    "description": {
+      "zh": "多种类型女友，任你挑选，快来跟我恋爱吧。",
+      "en": "Choose from many girlfriend archetypes and start a romance-driven chat experience."
+    },
+    "author": "Christopher L. Caskey",
+    "categories": ["romance", "character-chat", "social-simulation"],
+    "languages": ["zh", "en"],
+    "openclawUrl": "",
+    "source": {
+      "zh": "来自用户提供的 OpenClaw 游戏列表截图。",
+      "en": "From the OpenClaw game list screenshot provided by the user."
+    }
+  },
+  {
+    "id": "turtle-soup-riddle-game",
+    "title": {
+      "zh": "海龟汤谜题游戏",
+      "en": "Turtle Soup Riddle Game"
+    },
+    "description": {
+      "zh": "海龟汤游戏是一种对话猜谜游戏，具有悬疑、刺激、有趣的元素与感受。",
+      "en": "A conversational guessing game with mystery, suspense, and playful deduction."
+    },
+    "author": "WANG WANG",
+    "categories": ["riddle", "deduction", "conversation"],
+    "languages": ["zh", "en"],
+    "openclawUrl": "",
+    "source": {
+      "zh": "来自用户提供的 OpenClaw 游戏列表截图。",
+      "en": "From the OpenClaw game list screenshot provided by the user."
+    }
+  },
+  {
+    "id": "hunger-palace",
+    "title": {
+      "zh": "和珅教你混官场",
+      "en": "Heshen Teaches Court Politics"
+    },
+    "description": {
+      "zh": "官字两个口，上面那张口若是没有吃饱，下面那张口就只有饿着。",
+      "en": "A court-politics roleplay about power, hunger, and survival inside bureaucracy."
+    },
+    "author": "King Hang Wong",
+    "categories": ["roleplay", "politics", "historical"],
+    "languages": ["zh"],
+    "openclawUrl": "",
+    "source": {
+      "zh": "来自用户提供的 OpenClaw 游戏列表截图。",
+      "en": "From the OpenClaw game list screenshot provided by the user."
+    }
+  },
+  {
+    "id": "harry-potter-rpg",
+    "title": {
+      "zh": "哈利波特RPG",
+      "en": "Harry Potter RPG"
+    },
+    "description": {
+      "zh": "哈利波特 RPG，开始一段奇妙且图文并茂的冒险旅程，每次都有不一样的体验。",
+      "en": "A Harry Potter RPG that starts an illustrated magical adventure with a different experience each time."
+    },
+    "author": "Heng Ji",
+    "categories": ["rpg", "fantasy", "adventure"],
+    "languages": ["zh"],
+    "openclawUrl": "",
+    "source": {
+      "zh": "来自用户提供的 OpenClaw 游戏列表截图。",
+      "en": "From the OpenClaw game list screenshot provided by the user."
+    }
+  },
+  {
+    "id": "medieval-warhammer-text-adventure",
+    "title": {
+      "zh": "中古战锤文字冒险",
+      "en": "Warhammer Fantasy Text Adventure"
+    },
+    "description": {
+      "zh": "还原中古战锤世界的真实冒险体验。",
+      "en": "A text adventure that recreates the feel of adventuring in the Warhammer Fantasy world."
+    },
+    "author": "PAN WEI",
+    "categories": ["text-adventure", "fantasy", "warhammer"],
+    "languages": ["zh"],
+    "openclawUrl": "",
+    "source": {
+      "zh": "来自用户提供的 OpenClaw 游戏列表截图。",
+      "en": "From the OpenClaw game list screenshot provided by the user."
+    }
+  },
+  {
+    "id": "broken-child-rpg",
+    "title": {
+      "zh": "坏小孩 RPG",
+      "en": "The Bad Kids RPG"
+    },
+    "description": {
+      "zh": "基于紫金陈小说《坏小孩》的文本角色扮演游戏。",
+      "en": "A text role-playing game based on Zijin Chen's novel The Bad Kids."
+    },
+    "author": "WENZHE LI",
+    "categories": ["rpg", "literary-adaptation", "mystery"],
+    "languages": ["zh"],
+    "openclawUrl": "",
+    "source": {
+      "zh": "来自用户提供的 OpenClaw 游戏列表截图。",
+      "en": "From the OpenClaw game list screenshot provided by the user."
+    }
+  },
+  {
+    "id": "epic-tale-weaver",
+    "title": {
+      "zh": "Epic Tale Weaver",
+      "en": "Epic Tale Weaver"
+    },
+    "description": {
+      "zh": "激动人心的 RPG 游戏叙事者，创造视觉故事体验。",
+      "en": "An RPG storyteller that creates vivid visual story experiences."
+    },
+    "author": "",
+    "categories": ["rpg", "storytelling", "visual-story"],
+    "languages": ["zh", "en"],
+    "openclawUrl": "",
+    "source": {
+      "zh": "来自用户提供的 OpenClaw 游戏列表截图。",
+      "en": "From the OpenClaw game list screenshot provided by the user."
+    }
+  },
+  {
+    "id": "word-guessing-game",
+    "title": {
+      "zh": "哇咔咔猜单词",
+      "en": "Wakaka Word Guessing"
+    },
+    "description": {
+      "zh": "哇咔咔猜单词是一款智能猜单词游戏。",
+      "en": "An intelligent word guessing game."
+    },
+    "author": "Weili Yang",
+    "categories": ["word-game", "guessing"],
+    "languages": ["zh"],
+    "openclawUrl": "",
+    "source": {
+      "zh": "来自用户提供的 OpenClaw 游戏列表截图。",
+      "en": "From the OpenClaw game list screenshot provided by the user."
+    }
+  },
+  {
+    "id": "reincarnation-system",
+    "title": {
+      "zh": "操纵转世系统",
+      "en": "Reincarnation System"
+    },
+    "description": {
+      "zh": "一个模拟转世系统的文字游戏，提供待转世人员名单，由你决定他们的下一世发展。",
+      "en": "A text game that simulates a reincarnation system, where you decide the next-life development of listed individuals."
+    },
+    "author": "",
+    "categories": ["text-game", "simulation", "choice-driven"],
+    "languages": ["zh", "en"],
+    "openclawUrl": "",
+    "source": {
+      "zh": "来自用户提供的 OpenClaw 游戏列表截图。",
+      "en": "From the OpenClaw game list screenshot provided by the user."
+    }
+  }
+]

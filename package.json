@@ -1,0 +1,18 @@
+{
+  "name": "openclaw-llm-games",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A bilingual catalog of LLM-powered games that run in OpenClaw.",
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs",
+    "serve": "python3 -m http.server 4173"
+  },
+  "keywords": [
+    "openclaw",
+    "llm",
+    "games",
+    "catalog",
+    "bilingual"
+  ],
+  "license": "MIT"
+}

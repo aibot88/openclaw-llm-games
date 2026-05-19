@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="OpenClaw LLM Games is a bilingual catalog of LLM-powered games that run in OpenClaw."
+    >
+    <title>OpenClaw LLM Games</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="topbar" aria-label="Primary">
+        <a class="brand" href="./index.html" aria-label="OpenClaw LLM Games home">
+          <span class="brand-mark">OC</span>
+          <span>
+            <strong>OpenClaw LLM Games</strong>
+            <small>LLM Powered Game Catalog</small>
+          </span>
+        </a>
+        <div class="nav-actions">
+          <label class="search">
+            <span class="sr-only">Search games / 搜索游戏</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="m21 21-4.35-4.35m2.1-5.4a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" />
+            </svg>
+            <input id="searchInput" type="search" placeholder="搜索 / Search">
+          </label>
+          <button id="languageToggle" class="icon-button" type="button" aria-label="Switch language">
+            中 / EN
+          </button>
+        </div>
+      </nav>
+
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-copy">
+          <p class="eyebrow">开源整理项目 / Open-source curation project</p>
+          <h1 id="heroTitle">收集 OpenClaw 中可运行的 LLM powered 游戏</h1>
+          <p id="heroLead">
+            用双语数据、目录页和贡献流程，把社区里有趣的 OpenClaw 游戏整理成可以持续维护的 GitHub 仓库。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#catalog">浏览游戏 / Browse</a>
+            <a class="button secondary" href="./CONTRIBUTING.md">贡献游戏 / Contribute</a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Project stats">
+          <div>
+            <span id="gameCount">13</span>
+            <small>Games / 游戏</small>
+          </div>
+          <div>
+            <span>2</span>
+            <small>Languages / 语言</small>
+          </div>
+          <div>
+            <span>JSON</span>
+            <small>Source of truth / 数据源</small>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="intro-band" aria-labelledby="missionTitle">
+        <div>
+          <h2 id="missionTitle">项目目标 / Mission</h2>
+          <p>
+            这个仓库用于整理 OpenClaw 上能运行的 LLM powered 游戏，记录游戏名称、简介、作者、语言、分类和启动链接，方便玩家发现，也方便作者提交新作品。
+          </p>
+        </div>
+        <div>
+          <h2>收录原则 / Inclusion</h2>
+          <p>
+            优先收录可在 OpenClaw 中直接运行、以大语言模型驱动交互、并且能提供稳定入口或复现信息的游戏。
+          </p>
+        </div>
+      </section>
+
+      <section id="catalog" class="catalog-section" aria-labelledby="catalogTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Catalog / 目录</p>
+            <h2 id="catalogTitle">游戏列表 / Game List</h2>
+          </div>
+          <div class="filters" aria-label="Filters">
+            <button class="filter-chip active" type="button" data-category="all">All / 全部</button>
+          </div>
+        </div>
+        <div id="gameGrid" class="game-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made for OpenClaw LLM game discovery. Contributions are welcome.</p>
+      <p>为 OpenClaw LLM 游戏发现而建，欢迎贡献。</p>
+    </footer>
+
+    <template id="gameCardTemplate">
+      <article class="game-card">
+        <div class="card-topline">
+          <span class="language-badge"></span>
+          <span class="status-badge"></span>
+        </div>
+        <h3></h3>
+        <p class="english-title"></p>
+        <p class="description"></p>
+        <dl class="meta-list">
+          <div>
+            <dt>作者 / Author</dt>
+            <dd class="author"></dd>
+          </div>
+          <div>
+            <dt>分类 / Tags</dt>
+            <dd class="tags"></dd>
+          </div>
+        </dl>
+        <a class="play-link" target="_blank" rel="noreferrer">
+          打开游戏 / Open Game
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M7 17 17 7m0 0H9m8 0v8" />
+          </svg>
+        </a>
+      </article>
+    </template>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
